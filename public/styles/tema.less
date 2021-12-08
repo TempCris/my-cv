@@ -1,0 +1,90 @@
+/*----------------------------------------VARIABLES-------------------------------------*/
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*----------------------------------------TEMA-------------------------------------*/
+button, input[type="submit"], input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  }
+
+  html,
+  body {
+    background-color: #27265c;
+    font-family: 'Roboto';
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+  }
+  p{
+    color: @colorPrimaryText;
+    font-size: 18px;
+    span{
+      color: @colorSecondaryText;
+      font-size: 22px;
+      font-weight: bold;
+      line-break: 10px;
+    }
+  }
+  ::-moz-selection { /* Code for Firefox */
+    color: @colorPrimary;
+    background: #1ef0ed;
+  }
+  
+  ::selection {
+    color: @colorPrimary;
+    background: #1ef0ed;
+  }
+  /*-------------------------------------UTILITY STYLES----------------------------------*/
+  .center-from-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center-from-child{
+    margin: 0px auto 0px auto;
+  }
+  .col-vertical-align{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  }
+  .text-green{
+  color: @simpleColorGreen;
+  }
+  .text-yellow{
+  color: @simpleColorYellow
+  }
+  .error-mid-mssg{
+  color: @colorError;
+  font-size: 18px;
+  }
+  .modal-title{
+  color: @colorError;
+  }
+  .modal-message{
+  font-size: 18px;
+  }
+  .container94{
+  width: 94%;
+  margin: 10px 3% 10px 3%;
+  
+  }
