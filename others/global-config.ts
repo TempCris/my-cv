@@ -10,7 +10,8 @@ export const ownerData = {
   },
   phoneStr: '55 3370 0670',
   phoneMain: 5533700670,
-  contactMail: 'cristemperatum@gmail.com'
+  contactMail: 'cristemperatum@gmail.com',
+  gitHub: 'https://github.com/TempCris'
 };
 
 export const appConfig = {

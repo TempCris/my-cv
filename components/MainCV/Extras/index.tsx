@@ -3,6 +3,9 @@
 import { ReactElement } from 'react';
 import { Row, Col } from 'antd';
 import { CaretRightOutlined } from '@ant-design/icons';
+// ---Others
+import { ownerData } from 'Others/global-config';
+
 // ------------------------------------------ COMPONENT-----------------------------------------
 export default function WorkTiemeLine(): ReactElement {
   // ------------------------Const, States and Hooks-------------------------
@@ -25,7 +28,7 @@ export default function WorkTiemeLine(): ReactElement {
       </Col>
       <Col xs={24} sm={24} md={{ span: 10, pull: 2 }} lg={{ span: 10, pull: 2 }} xl={{ span: 9, pull: 3 }} xxl={{ span: 9, pull: 3 }}>
         <a
-          href="https://github.com/StevenBarquet"
+          href={ownerData.gitHub}
           target="_blank"
           rel="noopener noreferrer"
         >
