@@ -827,7 +827,7 @@ export const stackSpanish: Stack = {
 const engWorkExp: Array<JobDetail> = [
   {
     urlImg: '/images/WorkExp/WorkExp1.jpeg',
-    date: '2013-Jan - 2014-Jan',
+    date: '2017-Jan - 2018-Jan',
     company: 'IBM',
     title: 'Jr Application Developer Java & Web Technologies',
     time: '1 Year',
@@ -835,35 +835,27 @@ const engWorkExp: Array<JobDetail> = [
   },
   {
     urlImg: '/images/WorkExp/WorkExp2.jpeg',
-    date: '2014-Jan - 2015-Jan',
+    date: '2018-Jan - 2019-Jan',
     company: 'Freelance',
     title: 'Frontend Developer',
     time: '1 Year',
     description: 'Design, implement and maintain web applications in different phases, analysis, design, development, testing and maintenance using most used technologies (html5, Javascript, JQuery ,css3, boostrap, responsive design, ). Connection to Web Services and Apis, proposals for solutions, programming, testing and debugging.'
   },
   {
-    urlImg: '/images/WorkExp/WorkExp3.jpeg',
-    date: '2015-Jan - 2016-March',
-    company: 'PBG',
-    title: 'Head of Development',
-    time: '1.5 Years',
-    description: 'The company did not have a development area before my arrival, the IT products they needed were rented out to external consultants. During my stay, I used my experience in solving the problems that the consultants try to solve such as slow loading of the site, updating their website, promoting good practices in the code, helping all departments to have a more friendly, dynamic and functional IT environment and supervise that the products contracted in IT consultants are what they are supposed to be.'
-  },
-  {
     urlImg: '/images/WorkExp/WorkExp1.jpeg',
-    date: '2016-March - 2019-Jan',
+    date: '2019-Jan - 2021-March',
     company: 'Interware',
-    title: 'Fullstack Senior Developer',
+    title: 'JR React & Node Developer',
     time: '2.5 Years',
-    description: 'Design and develop diferent web systems using modern technogies like the most updated version of react, redux, node, server side render (ssr), webpack and flow for the development. Also for the quality side I use husky, prettier, checkstyle, eslint and sonarqube to avoid syntax and code structre mistakes and JEST with enzyme for testing part, ensuring the quality and efficiency of the software'
+    description: 'Design and develop diferent web systems using modern technogies like the most updated version of react, redux, node, server side render (ssr), webpack and flow for the development. Also for the quality side I use typescript, prettier, checkstyle, eslint to avoid syntax and typing mistakes and sonarqube and code structre mistakes or too much repeated code, ensuring the quality and efficiency of the software'
   },
   {
     urlImg: '/images/WorkExp/WorkExp2.jpeg',
-    date: '2019-Jan - Today',
-    company: 'Interware',
-    title: 'Presale engineer and Tech lead',
-    time: '1.7 Years (last job)',
-    description: 'After being asigned in different proyects as developer I got an offer from the ceo to help as PreSale engineer helping the sales team meeting with clients and offering development solutions  half time and the other half as tech lead managin proyects and being responsable of the development. I was very stressed out at the beginning because I was supposed to be the expert in all sort technologies with clients so I studied a lot to be able to fulfill the new responsibilities that currently have.'
+    date: '2021-March - Today',
+    company: 'One Phase',
+    title: 'Mid Fullstack Developer',
+    time: '1.6 Years (last job)',
+    description: 'Here I developed a lot of different proyects and manage to improve my previous stack of tecnologies and also understand and learn how to use other tecnologies, such as Graph QL, more backend implementations with different data bases such as mongo db and mariaDB and some infra configurations such as Docker or AWS services'
   }
 ];
 
@@ -912,8 +904,8 @@ const espWorkExp: Array<JobDetail> = [
 
 // ----------------------------------Basic Info------------------------------
 export const englishData = {
-  jobWanted: 'React and node senior developer',
-  introduction: `Hello, I'm Cristian.
+  jobWanted: 'React and node mid developer',
+  introduction: `Hello, I'm Axel.
   
   Currently Looking for personal grow and modern technologies, for the moment I prefer remote work.
   
@@ -924,8 +916,8 @@ export const englishData = {
 };
 
 export const spanishData = {
-  jobWanted: 'Desarrollador senior react y node',
-  introduction: `Hola, me llamo Cristian.
+  jobWanted: 'Desarrollador mid react y node',
+  introduction: `Hola, me llamo Axel.
 
   Actualmente buscando crecimiento personal y tecnologías interesantes, por el momento prefiero trabajo remoto.
   
@@ -936,7 +928,7 @@ export const spanishData = {
 
 // ----------------------------------Not multilanguage data------------------------------
 export const general = {
-  englishLevel: 80,
+  englishLevel: 90,
   sectionIds: {
     top: 'top',
     intro: 'intro',

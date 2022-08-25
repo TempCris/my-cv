@@ -1,16 +1,15 @@
 export default null;
 
 export const ownerData = {
-  domain: 'forgemytech.com',
   name: {
-    main: 'Cristian',
-    last1: 'Ponce',
-    last2: 'Gonzalz',
-    withLast: 'Cristian Ponce'
+    main: 'Ian Axel',
+    last1: 'Sotomayor',
+    last2: 'Luna',
+    withLast: 'Axel Sotomayor'
   },
-  phoneStr: '55 3370 0670',
-  phoneMain: 5533700670,
-  contactMail: 'cristemperatum@gmail.com',
+  phoneStr: '56 3345 5260',
+  phoneMain: 5633455260,
+  contactMail: 'iansotomayor1996@gmail.com',
   gitHub: 'https://github.com/TempCris'
 };
 
